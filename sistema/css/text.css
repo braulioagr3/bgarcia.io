@@ -1,0 +1,122 @@
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+}
+/*
+    2em -> 21.44px
+    1.5em -> 19.92px
+*/
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'arial';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h1, .h1{
+	font-size: 26px;
+}
+h2, .h2{
+	font-size: 20px;
+}
+h3, .h3{
+	font-size: 18px;
+}
+h4, .h4{
+	font-size: 16px;
+}
+h5, .h5{
+	font-size: 14px;
+}
+h6, .h6{
+	font-size: 12px;
+}
+
+p{
+	font-family: 'arial';
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 20px;
+}
+a{
+	text-decoration: none;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+span {
+    font-family: 'GothamBook';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.display-1{
+    font-size: 6em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+.display-2{
+    font-size:5.5em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+.display-3{
+    font-size:4.5em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+.display-4{
+    font-size:3.5em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+p{
+    margin-top: 0;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-primary{
+    color: var(--color-primary);
+}
+
+.text-secundary{
+    color: var(--color-secundary);
+}
+
+.text-success{
+    color: var(--color-success);
+}
+
+.text-info{
+    color: var(--color-info);
+}
+
+.text-warning{
+    color: var(--color-warning);
+}
+
+.text-danger{
+    color: var(--color-danger);
+}
+
+.text-light{
+    color: var(--color-light);
+}
+
+.text-dark{
+    color: var(--color-dark);
+}
